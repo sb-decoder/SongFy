@@ -14,12 +14,13 @@
 #songfy{
     font-size: 44px;
     margin-left: 20px;
+    font-family:  'Georgia' , serif;
 }
 #songfy:hover{
-    color: blue;
+    color: rgb(202, 140, 65);
 }
 body{
-    background-color: rgb(241, 208, 163);
+    background-color: rgb(162, 100, 13);
 }
 .bottom{
     position: sticky;
@@ -83,6 +84,7 @@ body{
 .timestamp{
     margin: 0 13px;
 }
+
 .ftt{
     margin: 10px;
     cursor: pointer;
@@ -93,6 +95,7 @@ body{
 .far:hover{
     color: rgb(28, 28, 209);
 }
+
 @media only screen and (max-width: 850px) {
     .songinfo{
         top: 2.3vh;
